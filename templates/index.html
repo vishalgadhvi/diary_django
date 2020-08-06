@@ -1,0 +1,20 @@
+{%load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+
+<body>
+     
+<h1>welcome,hope you had a great day </h1>
+ <div class="button">
+ <a  href="{% url 'login' %}" class="btn btn-one">Open Diary</a>
+<a  href="{% url 'register' %}" class="btn btn-two">Get a new Diary</a>
+</div>
+
+
+</body>
+</html>
